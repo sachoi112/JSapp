@@ -1,0 +1,68 @@
+@import 'reset.css';
+
+body {
+  position: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+
+#first-div {
+  width: 100%;
+  padding: 50px;
+}
+
+#second-div {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 50px;
+  z-index: 0;
+}
+
+/* #clock, #greeting, #login-form {
+  text-align: center;
+} */
+
+#interface {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  padding: 60 0 0 0;
+}
+
+#interface {
+  margin: 20px 0px;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+}
+
+h2 {
+  color: white;
+  font-size: 25px;
+  padding: 0 0 10px 0;
+}
+
+img {
+  position: absolute;
+  width: 25%;
+  height: auto;
+  left: 50%;
+  top: 20%;
+  z-index: 1;
+}
+
+.jangdo_black {
+  background-color: #424753;
+}
+
+.jangdo_yellow {
+  background-color: #FFAC00;
+}
